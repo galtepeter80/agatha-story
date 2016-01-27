@@ -1,0 +1,93 @@
+body {
+	background-image: url("./images/rainbow.jpg");
+}
+
+#body-wrap {
+	width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	background-image: url("./images/background.jpg");
+	text-align: center;
+	height: 100%;
+	position: relative;
+}
+
+#header {
+	width: 600px;
+	background: pink;
+	color: black;
+	height: 80px;
+	top: 0;
+	position: fixed;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size: 30;
+	font-weight: bold;
+	text-shadow: 20px 20px 40px blue;
+	text-decoration: underline;
+}
+
+#left {
+	/* background-image: url("./images/background.jpg"); */
+	float: left;
+	height: 100%;
+	width: 10%;
+}
+
+#right {
+	/* background-image: url("./images/background.jpg"); */ 
+	float: right;
+	height: 100%;
+	width: 10%;
+}
+
+#pagepic {
+	width: 80%;
+	height: auto;
+	border: 0;
+	margin-top: 80px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+#content {
+	margin-top: 50px;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 30;
+	text-align: center;
+	text-shadow: 20px 20px 40px blue;
+	background: pink;
+	font-style: italic;
+	bottom: 120;
+	position: absolute;
+	left: 0;
+	right: 0;
+}
+
+#buttons {
+	text-align: center;
+	bottom: 60;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+}
+
+.button {
+	height: 50px;
+	width: 100px;
+	font-size: 20;
+}
+
+#footer {
+	width: 600px;
+	background: pink;
+	color: black;
+	height: 40px;
+	bottom: 0;
+	position: fixed;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size: 20;
+}
